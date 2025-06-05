@@ -160,7 +160,7 @@ function gradeAssignment() {
 
     // Execute checks and prepare testResults
     const testResults = new TestResults();
-    const GUID = "d805050e-a0d8-49b0-afbd-46a486105170";  // Example GUID for each test case
+    const GUID = "3a8d0687-c33a-4af8-a49c-1e23cc09ddd5";  // Example GUID for each test case
 
     // Assign the results of each test case
     testResults.testCaseResults[GUID] = checkWhileLoopUsage(ast);
